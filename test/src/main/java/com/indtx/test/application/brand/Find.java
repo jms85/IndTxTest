@@ -7,7 +7,7 @@ import com.indtx.test.domain.brand.BrandRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("BrandFinder")
 @RequiredArgsConstructor
 public final class Find {
     private final BrandRepository repository;

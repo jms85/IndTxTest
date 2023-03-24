@@ -7,7 +7,7 @@ import com.indtx.test.domain.product.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("ProductFinder")
 @RequiredArgsConstructor
 public final class Find {
     private final ProductRepository repository;

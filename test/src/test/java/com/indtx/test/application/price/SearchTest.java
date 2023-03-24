@@ -1,6 +1,5 @@
 package com.indtx.test.application.price;
 
-import com.indtx.test.domain.brand.Brand;
 import com.indtx.test.domain.brand.BrandId;
 import com.indtx.test.domain.price.DateRange;
 import com.indtx.test.domain.price.MonetaryAmount;
@@ -53,7 +52,7 @@ class SearchTest {
         Price price = new Price(
                 new BrandId(1),
                 new DateRange(LocalDateTime.now(), LocalDateTime.now().plusDays(1)),
-                new PriceList(1, "priceList"),
+                new PriceList(1),
                 new ProductId(1),
                 1,
                 new MonetaryAmount(23, "EUR")

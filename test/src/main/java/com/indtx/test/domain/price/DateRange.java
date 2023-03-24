@@ -1,7 +1,10 @@
 package com.indtx.test.domain.price;
 
+import lombok.Getter;
+
 import java.time.LocalDateTime;
 
+@Getter
 public final class DateRange {
     private final LocalDateTime start;
 
